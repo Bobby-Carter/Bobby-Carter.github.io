@@ -1,0 +1,89 @@
+<div class="bgimg w3-display-container w3-text-white">
+  <div class="w3-display-middle w3-jumbo">
+    <p>Bobby Carter</p>
+  </div>
+  <div class="w3-top w3-center">
+    <div class="w3-bar w3-xlarge">
+      <button onclick="document.getElementById('skills').style.display='block'" class="w3-button w3-white w3-bar-item w3-margin">skills</button>
+      <button onclick="document.getElementById('education').style.display='block'" class="w3-button w3-white w3-bar-item w3-margin">education</button>
+      <button onclick="document.getElementById('experience').style.display='block'" class="w3-button w3-white w3-bar-item w3-margin">experience</button>
+      <button onclick="document.getElementById('contact').style.display='block'" class="w3-button w3-white w3-bar-item w3-margin">contact</button>
+    </div>
+  </div>
+  <div class="w3-display-bottomleft w3-container">
+    <p class="w3-xlarge w3-center">Seeking entry level Software Engineering position where I can hone my programming skills and become an expert</p>
+    <br>
+    <p class="w3-large">Raleigh, NC</p>
+    <p>powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+  </div>
+</div>
+
+<div id="skills" class="w3-modal">
+  <div class="w3-modal-content w3-animate-zoom">
+    <div class="w3-container w3-black w3-display-container">
+      <span onclick="document.getElementById('skills').style.display='none'" class="w3-button w3-display-topright w3-large">x</span>
+      <h1>Programming</h1>
+    </div>
+    <div class="w3-container">
+      <div class="w3-col w3-half" *ngFor="let skill of skills">
+        <h5 class="skills">•&nbsp;{{ skill.name }}&nbsp;&nbsp;&nbsp;</h5>
+        <img class="w3-image image" src="{{ skill.icon }}">
+      </div>
+    </div>
+    <div class="w3-container w3-black">
+      <h1>Interpersonal</h1>
+    </div>
+    <div class="w3-container">
+      <div class="w3-col w3-half" *ngFor="let ips of interpersonal">
+        <h5 class="skills " >•&nbsp;{{ ips }}</h5>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="education" class="w3-modal">
+  <div class="w3-modal-content w3-animate-zoom">
+    <div class="w3-container w3-black w3-display-container">
+      <span onclick="document.getElementById('education').style.display='none'" class="w3-button w3-display-topright w3-large">x</span>
+      <h1>North Carolina State University</h1>
+    </div>
+    <div class="w3-container">
+      <img class="w3-image w3-margin-right block-s" src="../assets/block-S.png">
+      <h5 class="w3-threequarter">B.S. Computer Science</h5>
+      <p class="w3-threequarter">Graduated July 2020</p>
+    </div>
+    <div class="w3-container">
+      
+    </div>
+    
+  </div>
+</div>
+
+<div id="experience" class="w3-modal">
+  <div class="w3-modal-content w3-animate-zoom">
+    <span onclick="document.getElementById('experience').style.display='none'" class="w3-button w3-black w3-display-topright w3-large">x</span>
+    <div *ngFor="let exp of experience">
+      <div class="w3-container w3-black">
+        <h1>{{ exp.name }}</h1>
+      </div>
+      <div class="w3-container w3-black">
+        <h4>{{ exp.date }}</h4>
+      </div>
+      <div class="w3-container">
+          <p *ngFor="let desc of exp.description">{{ desc.text1 }}<a href="{{ desc.linkUrl }}">{{ desc.linkText }}</a>{{ desc.text2 }}</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="contact" class="w3-modal">
+  <div class="w3-modal-content w3-animate-zoom">
+    <div class="w3-container w3-black">
+      <span onclick="document.getElementById('contact').style.display='none'" class="w3-button w3-display-topright w3-large">x</span>
+      <h1>Email</h1>
+    </div>
+    <div class="w3-container">
+      <p>bobby.carter.09@gmail.com</p>
+    </div>
+  </div>
+</div>
