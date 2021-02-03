@@ -9,9 +9,9 @@ export class AppComponent {
   title = 'Resume';
 
   skills = [
-    { name: 'Java', icon: '../assets/java.png' },
-    { name: 'C', icon: 'docs/assets/c.png'},
-    { name: 'Python', icon: '/src/assets/python.png'},
+    { name: 'Java', icon: './assets/java.png' },
+    { name: 'C', icon: 'assets/c.png'},
+    { name: 'Python', icon: '/assets/python.png'},
     { name: 'Github', icon: '/../docs/assets/GitHub.png'},
     { name: 'REST API', icon: '../favicon.ico'},
     { name: 'Javascript', icon: '/docs/assets/js.png'},
