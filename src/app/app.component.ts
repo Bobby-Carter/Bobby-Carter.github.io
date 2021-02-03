@@ -9,7 +9,7 @@ export class AppComponent {
   title = 'Resume';
 
   skills = [
-    { name: 'Java', icon: '/docs/assets/java.png' },
+    { name: 'Java', icon: 'https://bobby-carter.github.io/Resume/docs/assets/angular.png' },
     { name: 'C', icon: '/docs/assets/c.png'},
     { name: 'Python', icon: '/docs/assets/python.png'},
     { name: 'Github', icon: '/docs/assets/github.png'},
