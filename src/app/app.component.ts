@@ -9,19 +9,19 @@ export class AppComponent {
   title = 'Resume';
 
   skills = [
-    { name: 'Java', icon: '../assets/java.png' },
-    { name: 'C', icon: '../assets/c.png'},
-    { name: 'Python', icon: '../assets/python.png'},
-    { name: 'Github', icon: '../assets/GitHub.png'},
-    { name: 'REST API', icon: '../assets/rest.png'},
-    { name: 'Javascript', icon: '../assets/js.png'},
-    { name: 'Angular', icon: '../assets/angular.png'},
-    { name: 'SQL', icon: '../assets/sql.jpg'},
-    { name: 'Node.js', icon: '../assets/node.png'},
-    { name: 'React', icon: '../assets/react.png'},
-    { name: 'Jenkins', icon: '../assets/jenkins.png'},
-    { name: 'Cucumber', icon: '../assets/cucumber.png'},
-    { name: 'Selenium', icon: '../assets/selenium.png'}
+    { name: 'Java', icon: 'assets/java.png' },
+    { name: 'C', icon: 'assets/c.png'},
+    { name: 'Python', icon: 'assets/python.png'},
+    { name: 'Github', icon: 'assets/GitHub.png'},
+    { name: 'REST API', icon: 'assets/rest.png'},
+    { name: 'Javascript', icon: 'assets/js.png'},
+    { name: 'Angular', icon: 'assets/angular.png'},
+    { name: 'SQL', icon: 'assets/sql.jpg'},
+    { name: 'Node.js', icon: 'assets/node.png'},
+    { name: 'React', icon: 'assets/react.png'},
+    { name: 'Jenkins', icon: 'assets/jenkins.png'},
+    { name: 'Cucumber', icon: 'assets/cucumber.png'},
+    { name: 'Selenium', icon: 'assets/selenium.png'}
   ];
 
   interpersonal = [
