@@ -9,19 +9,19 @@ export class AppComponent {
   title = 'Resume';
 
   skills = [
-    { name: 'Java', icon: '../assets/java.png' },
-    { name: 'C', icon: '../assets/c.png'},
-    { name: 'Python', icon: '../assets/python.png'},
-    { name: 'Github', icon: '../assets/GitHub.png'},
-    { name: 'REST API', icon: '../assets/rest.png'},
-    { name: 'Javascript', icon: '../assets/js.png'},
-    { name: 'Angular', icon: '../assets/angular.png'},
-    { name: 'SQL', icon: '../assets/sql.jpg'},
-    { name: 'Node.js', icon: '../assets/node.png'},
-    { name: 'React', icon: '../assets/react.png'},
-    { name: 'Jenkins', icon: '../assets/jenkins.png'},
-    { name: 'Cucumber', icon: '../assets/cucumber.png'},
-    { name: 'Selenium', icon: '../assets/selenium.png'}
+    { name: 'Java', icon: '/docs/assets/java.png' },
+    { name: 'C', icon: '/docs/assets/c.png'},
+    { name: 'Python', icon: '/docs/assets/python.png'},
+    { name: 'Github', icon: '/docs/assets/github.png'},
+    { name: 'REST API', icon: '/docs/assets/rest.png'},
+    { name: 'Javascript', icon: '/docs/assets/js.png'},
+    { name: 'Angular', icon: '/docs/assets/angular.png'},
+    { name: 'SQL', icon: '/docs/assets/sql.jpg'},
+    { name: 'Node.js', icon: '/docs/assets/node.png'},
+    { name: 'React', icon: '/docs/assets/react.png'},
+    { name: 'Jenkins', icon: '/docs/assets/jenkins.png'},
+    { name: 'Cucumber', icon: '/docs/assets/cucumber.png'},
+    { name: 'Selenium', icon: '/docs/assets/selenium.png'}
   ];
 
   interpersonal = [
